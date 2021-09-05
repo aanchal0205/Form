@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ma+Shan+Zheng&display=swap');
+
+
+.container
+{
+    text-align: center;
+   
+    
+}
+
+label
+{
+    font-family: 'Lobster', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-size: 1.5rem;
+}
+p
+{
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    
+
+}
+
+body,html
+{
+    height: 100%;
+    background-image: linear-gradient(to left bottom, #053337, #005f51, #248b51, #80b439, #ebd212);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+table, th {
+    border: 1px solid black;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  }
+  table
+  {
+      position: relative;
+      bottom: 1rem;
+      margin-top: 1rem;
+  }
+
+  td
+  {
+      border: 1px solid black;
+      white-space:pre-wrap; 
+      word-wrap:break-word;
+      
+  }
+.col-md-1
+{
+    padding: 0px;
+}
+
+.col-md-2
+{
+    padding: 0px;
+}
+
+    input,textarea
+    {
+        width: 100%;
+    }
+
+.gender
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form
+{
+    margin-top: 0px;
+}
+textarea
+{
+    resize: none;
+}
+
+@media (max-width:992px) {
+
+    .gender
+    {
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+@media (min-width: 320px) and (max-width: 576px) { 
+
+    input{
+        width: 10rem;
+    }
+
+    textarea
+    {
+        width: 10rem;
+    }
+
+    table, th,td {
+        border: 1px solid black;
+        font-size: 10px;
+      padding: 0px;
+      margin-left: auto;
+     
+      
+      }
+      body{
+        overflow-x: scroll;
+      };
+
+
+
+
+
+}
